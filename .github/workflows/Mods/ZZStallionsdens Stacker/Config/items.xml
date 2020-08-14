@@ -1,3 +1,0 @@
-<stallionsden>
-	<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">30000</set>
-</stallionsden>
