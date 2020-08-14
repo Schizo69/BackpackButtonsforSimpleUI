@@ -1,0 +1,19 @@
+<stallionsden>
+	<append xpath="/recipes">
+		<recipe name="Excavator" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="20"/>
+			<ingredient name="resourceScrapIron" count="50"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceElectricParts" count="40"/>
+		</recipe>
+		
+		<recipe name="RainBarrel" count="1" craft_area="workbench">
+			<ingredient name="wineBarrelPlain" count="2"/>
+			<ingredient name="toolBeaker" count="2"/>
+			<ingredient name="resourceDuctTape" count="5"/>
+			<ingredient name="drinkJarEmpty" count="10"/>
+			<ingredient name="resourceAirFilter" count="2"/>
+		</recipe>
+	</append>
+</stallionsden>
