@@ -1,0 +1,177 @@
+<configs>
+	<append xpath="/blocks">
+	
+	<block name="Skull_Worktable">
+	<property name="CustomIcon" value="Skull_Worktable" />
+	<property name="Class" value="Workstation"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="MaxDamage" value="2500"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Worktable.Prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="UnlockedBy" value="Skull_Worktable Schematic"/>
+	<property name="MultiBlockDim" value="2,2,1"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapTime" value="50"/>
+	<property name="HeatMapFrequency" value="100"/>
+	<property name="CraftTimeMultiplier" value="0.5,1"/>
+	<property name="Stacknumber" value="10"/>
+	
+	<property class="Workstation">
+		<property name="Modules" value="output"/>
+		<property name="CraftingAreaRecipes" value="Skull_Worktable"/>
+	</property>
+	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
+	<property name="OpenSound" value="open_workbench"/>
+	<property name="CloseSound" value="close_workbench"/>
+	<property name="WorkstationJournalTip" value="workbenchTip"/>
+
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="25"/>
+		<property name="resourceMechanicalParts" value="20"/>
+		<property name="resourceWood" value="50"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="8" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="15"/>
+	<property name="DescriptionKey" value="workbenchDesc"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="SortOrder1" value="70i0"/>
+</block>
+	
+<!-- non powered lantern -->
+<block name="Skull_Lamp01">
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Lamp01"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ModelOffset" value="0,.3,0"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="Skull_Lamp"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+	<property name="Material" value="MresourceBone"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
+</block>
+
+<block name="Skull_Lamp02red">
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Lamp02red"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ModelOffset" value="0,.3,0"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="Skull_Lampred"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+	<property name="Material" value="MresourceBone"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
+</block>
+
+<block name="Skull_Lamp03pink">
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Lamp03pink"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ModelOffset" value="0,.3,0"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="Skull_Lamppink"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+	<property name="Material" value="MresourceBone"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
+</block>
+
+<block name="Skull_Lamp04purple">
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Lamp04purple"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ModelOffset" value="0,.3,0"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="Skull_Lamppurple"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+	<property name="Material" value="MresourceBone"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
+</block>
+
+<block name="Skull_Lamp05blue">
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Lamp05blue"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ModelOffset" value="0,.3,0"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="Skull_Lampblue"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+	<property name="Material" value="MresourceBone"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
+</block>
+
+<block name="Skull_Lamp06teal">
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Lamp06teal"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ModelOffset" value="0,.3,0"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="Skull_Lampteal"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+	<property name="Material" value="MresourceBone"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
+</block>
+<!--
+<block name="Skull_Lamp07green">
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Lamp07green"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ModelOffset" value="0,.3,0"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="Skull_Lampgreen"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+	<property name="Material" value="MresourceBone"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
+</block>
+-->
+<block name="Skull_Lamp08orange">
+	<property name="Extends" value="porchLight01" param1="HandleFace,DescriptionKey"/>
+	<property name="Class" value=""/>
+	<property name="Model" value="#@modfolder:Resources/Skull_Lights.unity3d?Skull_Lamp08orange"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ModelOffset" value="0,.3,0"/>
+	<property name="CanPickup" value="true"/>
+	<property name="CustomIcon" value="Skull_Lamporange"/>
+	<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+	<property name="Material" value="MresourceBone"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="TakeDelay" value="2"/>
+	<property name="Group" value="Science,Building,advBuilding"/>
+</block>
+
+	</append>
+</configs>

@@ -1,0 +1,26 @@
+<configs>
+ 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']">	
+		<entity name="mechRobot" prob="10"/>
+		<entity name="mechDrone" prob="10" />
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']">	
+		<entity name="mechRobot" prob="10"/>
+		<entity name="mechDrone" prob="10" />
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']">	
+		<entity name="mechRobot" prob="5"/>
+		<entity name="mechDrone" prob="5" />
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']">
+		<entity name="mechSphereI" prob="10" />
+		<entity name="mechSphereII" prob="10" />
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
+		<entity name="mechSphereI" prob="10" />
+		<entity name="mechSphereII" prob="10" />
+	</append>	
+	<append xpath="/entitygroups/entitygroup[@name='VultureGroup']">	
+		<entity name="mechBee" />
+	</append>
+ <!--	<entity name="mechRecyclingBot" /> --> 
+</configs>

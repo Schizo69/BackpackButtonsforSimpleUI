@@ -1,0 +1,78 @@
+<configs>
+
+<append xpath="/recipes">
+
+ <recipe name="Skull_Worktable" count="1"  craft_time = "160" tags="learnable/Skull_Worktable">
+	<ingredient name="resourceWood" count="150"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceScrapPolymers" count="120"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="Skull_Lamp01" count="1" craft_area="Skull_Worktable" tags="learnable,Skull_Worktable">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+</recipe>
+
+<recipe name="Skull_Lamp02red" count="1" craft_area="Skull_Worktable" tags="learnable,Skull_Worktable">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+</recipe>
+
+<recipe name="Skull_Lamp03pink" count="1" craft_area="Skull_Worktable" tags="learnable,Skull_Worktable">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+</recipe>
+
+<recipe name="Skull_Lamp04purple" count="1" craft_area="Skull_Worktable" tags="learnable,Skull_Worktable">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+</recipe>
+
+<recipe name="Skull_Lamp05blue" count="1" craft_area="Skull_Worktable" tags="learnable,Skull_Worktable">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+</recipe>
+
+<recipe name="Skull_Lamp06teal" count="1" craft_area="Skull_Worktable" tags="learnable,Skull_Worktable">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+</recipe>
+<!--
+<recipe name="Skull_Lamp07green" count="1" craft_area="Skull_Worktable" tags="learnable,Skull_Worktable">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+</recipe>
+-->
+<recipe name="Skull_Lamp08orange" count="1" craft_area="Skull_Worktable" tags="learnable,Skull_Worktable">
+	<ingredient name="resourceBone" count="25"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+</recipe>
+
+
+</append>
+</configs>

@@ -1,0 +1,40 @@
+Key,Source,Context,Changes,English
+sbSpartanCubeOriginal,blocks,Block,New,"Spartan Cube, Original"
+sbSpartanCubeDesc,blocks,Block,New,Special flastone block that sports the Spartan logo.\n(Courtesy of the SpartanBlocks mod)
+spSpartanCubeRocks,blocks,Block,New,"Spartan Cube, Rocks"
+spSpartanCubeMarble,blocks,Block,New,"Spartan Cube, Marble"
+spPatrolCubeRocks,blocks,Block,New,"Patrol Gaming Cube, Rocks"
+spPatrolCubeMarble,blocks,Block,New,"Patrol Gaming Cube, Marble"
+sbPatrolCubeDesc,blocks,Block,New,Special flastone block that sports the Patrol Gaming logo.\n(Courtesy of the SpartanBlocks mod)
+sbSpartanCubesVariantHelper,blocks,Variant,New,Spartan Cubes
+sbSpartanCubesVariantHelperDesc,blocks,Variant,New,Helper block for all the different Spartan Cubes.\n(Courtesy of the SpartanBlocks mod)
+spSpartanFlag,blocks,Block,New,Grand Spartan Flag
+spSpartanFlagBlack,blocks,Block,New,"Grand Spartan Flag, Black"
+spSpartanFlagHalf,blocks,Block,New,"Grand Spartan Flag, Half-Mast"
+spSpartanFlagBlackHalf,blocks,Block,New,"Grand Spartan Flag, Black Half-Mast"
+spMissSpartanFlag,blocks,Block,New,Miss Spartan Flag
+spMissSpartanFlagBlack,blocks,Block,New,"Miss Spartan Flag, Black"
+spMissSpartanFlagBlackHalf,blocks,Block,New,"Miss Spartan Flag, Black Half-Mast"
+spMissSpartanFlagHalf,blocks,Block,New,"Miss Spartan Flag, Half-Mast"
+spPatrolFlag,blocks,Block,New,Patrol Gaming Flag
+spPatrolFlagBlack,blocks,Block,New,"Patrol Gaming Flag, Black"
+spPatrolFlagHalf,blocks,Block,New,"Patrol Gaming Flag, Half-Mast"
+spPatrolFlagBlackHalf,blocks,Block,New,"Patrol Gaming Flag, Black Half-Mast"
+spSpartanFlagDesc,blocks,Block,New,Flag for all the Grand Spartan fans out there.\n(Courtesy of the SpartanBlocks mod)
+spFlagPole,blocks,Variant,New,Flag Pole
+spFlagCanvas,blocks,Variant,New,Flag Canvas
+spPatrolFlagDesc,blocks,Block,New,Flag for all the Patrol Gaming fans out there.\n(Courtesy of the SpartanBlocks mod)
+sbFlagsVariantHelper,blocks,Variant,New,Branded Flags
+sbFlagsVariantHelperDesc,blocks,Variant,New,"Proof through the night that our flag was still there... or not, we'll see.\n(Courtesy of the SpartanBlocks mod)"
+spEhFlag,blocks,Block,New,"Eh Team Flag"
+spEhFlagHalf,blocks,Block,New,"Eh Team Flag, Half-Mast"
+sp330Flag,blocks,Block,New,"330 Flag"
+sp330FlagHalf,blocks,Block,New,"330 Flag, Half-Mast"
+spBeersplosionFlag,blocks,Block,New,"Beersplosion Flag"
+spBeersplosionFlagHalf,blocks,Block,New,"Beersplosion Flag, Half-Mast"
+spLHunterFlag,blocks,Block,New,"Logan Hunter Flag"
+spLHunterFlaggHalf,blocks,Block,New,"Logan Hunter Flag, Half-Mast"
+spPawnAndSnacksFlag,blocks,Block,New,"Pawn and Snacks Flag"
+spPawnAndSnacksFlagHalf,blocks,Block,New,"Pawn and Snacks Flag, Half-Mast"
+spIMLostFlag,blocks,Block,New,"I'm lost Flag"
+spIMLostFlagHalf,blocks,Block,New,"I'm lost Flag, Half-Mast"

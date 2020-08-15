@@ -1,0 +1,255 @@
+<configs>
+	<append xpath="/blocks">
+		
+
+		<!-- Special flagstone blocks with Grand Spartan pattern -->
+		<block name="sbSpartanCubeOriginal">
+			<property name="Extends" value="flagstoneNoUpgradeMaster"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeV1" /> 
+			<property name="CustomIcon" value="GrandSpartanIcon" />
+			<property name="SortOrder2" value="9990" />
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="DescriptionKey" value="sbSpartanCubeDesc"/>
+		</block>
+
+		<block name="spSpartanCubeRocks">
+			<property name="Extends" value="sbSpartanCubeOriginal"/>
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeRocks" /> 
+			<property name="CustomIcon" value="RocksCubeIcon" />
+			<property name="SortOrder2" value="9991" />
+		</block>
+
+		<block name="spPatrolCubeRocks">
+			<property name="Extends" value="sbSpartanCubeOriginal"/>
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?PatrolCubeRocks" /> 
+			<property name="CustomIcon" value="PatrolCubeRocksIcon" />
+			<property name="SortOrder2" value="9992" />
+			<property name="DescriptionKey" value="sbPatrolCubeDesc"/>
+		</block>
+
+		<block name="spSpartanCubeMarble">
+			<property name="Extends" value="sbSpartanCubeOriginal"/>
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeMarble" /> 
+			<property name="CustomIcon" value="SpartanCubeMarbleIcon" />
+			<property name="SortOrder2" value="9993" />
+		</block>
+
+		<block name="spPatrolCubeMarble">
+			<property name="Extends" value="spPatrolCubeRocks"/>
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?PatrolCubeMarble" /> 
+			<property name="CustomIcon" value="PatrolCubeMarbleIcon" />
+			<property name="SortOrder2" value="9994" />
+		</block>
+
+		<!-- Create a Spartan Cube helper block -->
+		<block name="sbSpartanCubesVariantHelper">
+			<property name="Extends" value="sbSpartanCubeOriginal"/>
+			<property name="CustomIcon" value="GrandSpartanIcon"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="sbSpartanCubesVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="sbSpartanCubeOriginal,spSpartanCubeRocks,spPatrolCubeRocks,spSpartanCubeMarble,spPatrolCubeMarble"/>
+		</block>
+
+	</append>
+
+	<!-- Flag pole and flag with Grand Spartan pattern -->
+	<append xpath="/blocks">	
+		<block name="spSpartanFlag">
+			<property name="Material" value="Mmetal"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,5,1"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="true"/> 
+			<property name="CanPickup" value="true" /> 
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMetalPipe" count="4,8" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="2,5" tag="allHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="2,5"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagSpartan" />
+			<property name="CustomIcon" value="GrandSpartanFlagIcon" />
+			<property name="EconomicValue" value="5"/>
+			<property name="Stacknumber" value="25"/>
+			<property name="TakeDelay" value="5"/>
+			<property name="CanPickup" value="true" param1="sbFlagsVariantHelper"/>
+		</block>
+
+		<block name="spSpartanFlagBlack">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagSpartanBlack" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="SpartanFlagBlackIcon" />
+		</block>
+
+		<block name="spSpartanFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagSpartan-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="SpartanFlagHalfIcon" />
+		</block>
+
+		<block name="spSpartanFlagBlackHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagSpartanBlack-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="SpartanFlagBlackHalfIcon" />
+		</block>
+
+		<block name="spPatrolFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagPatrol" />
+			<property name="DescriptionKey" value="spPatrolFlagDesc"/> 
+			<property name="CustomIcon" value="PatrolFlagIcon" />
+		</block>
+
+		<block name="spPatrolFlagBlack">
+			<property name="Extends" value="spPatrolFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagPatrolBlack" />
+			<property name="CustomIcon" value="PatrolFlagBlackIcon" />
+		</block>
+
+		<block name="spPatrolFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagPatrol-half" />
+			<property name="DescriptionKey" value="spPatrolFlagDesc"/> 
+			<property name="CustomIcon" value="PatrolFlagHalfIcon" />
+		</block>
+
+		<block name="spPatrolFlagBlackHalf">
+			<property name="Extends" value="spPatrolFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagPatrolBlack-half" />
+			<property name="CustomIcon" value="PatrolFlagBlackHalfIcon" />
+		</block>
+
+		<block name="spMissSpartanFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartan" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="MissSpartanFlagIcon" />
+		</block>
+
+		<block name="spMissSpartanFlagBlack">
+			<property name="Extends" value="spPatrolFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartanBlack" />
+			<property name="CustomIcon" value="MissSpartanFlagBlackIcon" />
+		</block>
+
+		<block name="spMissSpartanFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartan-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="MissSpartanFlagHalfIcon" />
+		</block>
+
+		<block name="spMissSpartanFlagBlackHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartanBlack-half" />
+			<property name="CustomIcon" value="MissSpartanFlagBlackHalfIcon" />
+		</block>
+
+		<block name="spEhFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagEhTeam" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spEhFlag" />
+		</block>
+
+		<block name="spEhFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagEhTeam-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spEhFlagHalf" />
+		</block>
+
+		<block name="sp330Flag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?Flag330" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="sp330Flag" />
+		</block>
+
+		<block name="sp330FlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?Flag330-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="sp330FlagHalf" />
+		</block>
+
+		<block name="spBeersplosionFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagBeersplosion" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spBeersplosionFlag" />
+		</block>
+
+		<block name="spBeersplosionFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagBeersplosion-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spBeersplosionFlagHalf" />
+		</block>
+
+		<block name="spLHunterFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagLHunter" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spLHunterFlag" />
+		</block>
+
+		<block name="spLHunterFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagLHunter-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spLHunterFlagHalf" />
+		</block>
+
+		<block name="spIMLostFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagIMLost" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spIMLostFlag" />
+		</block>
+
+		<block name="spIMLostFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagIMLost-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spIMLostFlagHalf" />
+		</block>
+
+		<block name="spPawnAndSnacksFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagPawnAndSnacks" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spPawnAndSnacksFlag" />
+		</block>
+
+		<block name="spPawnAndSnacksFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagPawnAndSnacks-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spPawnAndSnacksFlagHalf" />
+		</block>
+
+		<!-- Create a flag helper block -->
+		<block name="sbFlagsVariantHelper">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="CustomIcon" value="FlagsIcon"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="sbFlagsVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="spSpartanFlag,spSpartanFlagBlack,spMissSpartanFlag,spMissSpartanFlagBlack,spPatrolFlag,spPatrolFlagBlack,spEhFlag,sp330Flag,spBeersplosionFlag,spLHunterFlag,spPawnAndSnacksFlag,spIMLostFlag,spSpartanFlagHalf,spSpartanFlagBlackHalf,spMissSpartanFlagHalf,spMissSpartanFlagBlackHalf,spPatrolFlagHalf,spPatrolFlagBlackHalf,spEhFlagHalf,sp330FlagHalf,spBeersplosionFlagHalf,spLHunterFlagHalf,spPawnAndSnacksFlagHalf,spIMLostFlagHalf"/>
+		</block>
+
+	</append>
+
+</configs>
