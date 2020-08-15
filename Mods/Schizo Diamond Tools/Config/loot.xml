@@ -1,7 +1,0 @@
-<configs>
-		
-	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']" >
-	 <item name="DiamonToolSchematic" />
-	</append>
-		
-</configs>
