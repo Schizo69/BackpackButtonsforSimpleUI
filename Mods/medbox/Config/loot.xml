@@ -1,0 +1,21 @@
+<lootcontainers>
+<append xpath="/lootcontainers">	
+<lootcontainer id="308" count="16" size="6,6" destroy_on_close="false" sound_open="UseActions/open_supply_crate" sound_close="UseActions/close_supply_crate" open_time="1" loot_quality_template="qualBaseTemplate">
+	<item name="medicalFirstAidKit"/>
+	<item name="toolBeaker"/>
+	<item name="drugAntibiotics"/>
+	<item name="drugSteroids"/>
+	<item name="drugRecog"/>
+	<item name="drugFortBites"/>
+	<item name="drugPainkillers"/>
+	<item name="medicalFirstAidBandage"/>
+	<item name="medicalBandage"/>
+	<item name="drugSteroids"/>
+	<item name="medicalBloodBag" count="2,4"/>
+	<item name="drugVitamins"/>
+	<item name="drinkJarGrainAlcohol"/>
+	<item name="medicalSplint"/>
+	<item group="rareMedicine"/>
+</lootcontainer>
+</append>
+</lootcontainers>

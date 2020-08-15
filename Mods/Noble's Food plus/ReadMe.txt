@@ -1,0 +1,1 @@
+Just drop this entire folder "Noble's food plus" into your mods folder and you should be ready to go.

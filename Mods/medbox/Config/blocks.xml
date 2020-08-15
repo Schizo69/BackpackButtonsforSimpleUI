@@ -1,0 +1,30 @@
+<configs>
+	
+		<append xpath="/blocks">
+
+<block name="medbox">
+	
+			<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="medbox"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/medbox.unity3d?medbox.prefab"/>
+    <property name="Class" value="Loot"/>
+	<property name="LootList" value="308"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="Material" value="Mwood"/>
+	<property name="MaxDamage" value="40"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Path" value="solid"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CanDecorateOnSlopes" value="false"/>
+	<property name="DescriptionKey" value="cntLootCrateHeroDesc"/>
+	<drop event="Harvest" name="resourceWood" count="3,6" tag="allToolsHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1,5" prob="0.75" stick_chance="1"/>
+	<property name="FilterTags" value="fdecor,fother,floot"/>
+	</block>
+	
+	
+		</append>
+		
+</configs>

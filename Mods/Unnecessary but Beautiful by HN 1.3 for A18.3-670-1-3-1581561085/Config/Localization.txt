@@ -1,0 +1,40 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+HNKitchenBlocks,blocks,Variant,New,HN Kitchen Blocks,,,,
+HNKitchenBlocksDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNBathroomBlocks,blocks,Variant,New,HN Bathroom Blocks,,,,
+HNBathroomBlocksDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNSofaBlocks,blocks,Variant,New,HN Sofa Blocks,,,,
+HNSofaBlocksDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNWindows/GlassDoors,blocks,Variant,New,HN Windows/Glass Doors,,,,
+HNWindows/GlassDoorsDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNDoors,blocks,Variant,New,HN Doors,,,,
+HNDoorsDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNDecor,blocks,Variant,New,HN Decor,,,,
+HNDecorDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNPool/OutdoorFurniture,blocks,Variant,New,HN Pool/Outdoor Furniture,,,,
+HNPool/OutdoorFurnitureDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNTables/Chairs,blocks,Variant,New,HN Tables/Chairs,,,,
+HNTables/ChairsDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNElectronics,blocks,Variant,New,HN Electronics,,,,
+HNElectronicsDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNKitchenAppliances,blocks,Variant,New,HN Kitchen Appliances,,,,
+HNKitchenAppliancesDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNLights,blocks,Variant,New,HN Lights,,,,
+HNLightsDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+HNBedroomBlocks/Racks,blocks,Variant,New,HN Bedroom Blocks/Racks,,,,
+HNBedroomBlocks/RacksDesc,blocks,Block,New,Don't let the zombie apocalypse keep you from having nice things!,,,,
+
+
+
+

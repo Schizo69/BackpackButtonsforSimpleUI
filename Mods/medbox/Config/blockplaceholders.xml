@@ -1,0 +1,33 @@
+<stallionsden>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntForestRandomLootHelper']">
+
+<block name="medbox" prob=".9"/>
+
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntWastelandRandomLootHelper']">
+<block name="medbox" prob=".9"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntDesertRandomLootHelper']">
+<block name="medbox" prob=".9"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntBurntForestRandomLootHelper']">
+<block name="medbox" prob=".9"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntHouseRandomLootHelper']">
+<block name="medbox" prob=".9"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntStreetRandomLootHelper']">
+<block name="medbox" prob=".9"/>
+</append>
+
+<append xpath="/blockplaceholders/placeholder[@name='cntYardRandomLootHelper']">
+<block name="medbox" prob=".9"/>
+</append>
+
+</stallionsden>
