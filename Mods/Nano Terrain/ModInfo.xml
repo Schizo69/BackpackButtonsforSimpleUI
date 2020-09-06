@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Multiwall and Nano terrain"/>
+		<Description value="Multiwall: Grows vertically to height chosen | Nano terrain: Fills in holes like liquid"/>
+		<Author value="StompyNZ (Converted to XPath modlet by Deceptive Pastry)"/>
+		<Version value="1.1"/>
+		<Website value="http://7daystodie.com"/>
+	</ModInfo>
+</xml>

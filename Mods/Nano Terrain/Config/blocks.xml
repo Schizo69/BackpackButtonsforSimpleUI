@@ -1,0 +1,88 @@
+<configs>
+	<append xpath="/blocks">
+	
+		<!-- Nano Terrain -->
+
+		<block name="nano_flagstoneBlock">
+				<property name="Extends" value="flagstoneBlock" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="flagstoneBlock"/>
+				<property name="CustomIcon" value="flagstoneBlock"/>
+		</block>
+		<block name="nano_cobblestoneBlock">
+				<property name="Extends" value="cobblestoneBlock" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="cobblestoneBlock"/>
+				<property name="CustomIcon" value="cobblestoneBlock"/>
+		</block>
+		<block name="nano_rConcreteBlock">
+				<property name="Extends" value="rConcreteBlock" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="rConcreteBlock"/>
+				<property name="CustomIcon" value="rConcreteBlock"/>
+		</block>
+		<block name="nano_terrStone">
+				<property name="Extends" value="terrStone" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrStone"/>
+				<property name="CustomIcon" value="terrStone"/>
+		</block>
+		<block name="nano_terrDirt">
+				<property name="Extends" value="terrDirt" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrDirt"/>
+				<property name="CustomIcon" value="terrDirt"/>
+		</block>
+		<block name="nano_terrSand">
+				<property name="Extends" value="terrSand" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrSand"/>
+				<property name="CustomIcon" value="terrSand"/>
+		</block>
+		<block name="nano_terrSnow">
+				<property name="Extends" value="terrSnow" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrSnow"/>
+				<property name="CustomIcon" value="terrSnow"/>
+		</block>
+		<block name="nano_terrSandStone">
+				<property name="Extends" value="terrSandStone" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrSandStone"/>
+				<property name="CustomIcon" value="terrDesertGround"/>
+		</block>
+		<block name="nano_terrDesertGround">
+				<property name="Extends" value="terrDesertGround" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrDesertGround"/>
+				<property name="CustomIcon" value="terrDesertGround"/>
+		</block>
+		<block name="nano_terrAsphalt">
+				<property name="Extends" value="terrAsphalt" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrAsphalt"/>
+				<property name="CustomIcon" value="terrAsphalt"/>
+		</block>
+		<block name="nano_terrGravel">
+				<property name="Extends" value="terrGravel" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrGravel"/>
+				<property name="CustomIcon" value="terrGravel"/>
+		</block>
+		
+		<block name="nano_terrBurntForestGround">
+				<property name="Extends" value="terrBurntForestGround" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrBurntForestGround"/>
+				<property name="CustomIcon" value="terrBurntForestGround"/>
+		</block>
+		<block name="nano_terrForestGround">
+				<property name="Extends" value="terrForestGround" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrForestGround"/>
+				<property name="CustomIcon" value="terrForestGround"/>
+		</block>
+		
+		
+	</append>
+</configs>

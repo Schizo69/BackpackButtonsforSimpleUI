@@ -13,5 +13,10 @@
 	
 	<set xpath="/items/item[@name='bucketEmpty']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='bucketRiverWater']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">30000</set>
+	
+	<set xpath="/items/item[starts-with(@name, 'modDye')]/property[@name='Stacknumber']/@value">1</set>	
+	
+
 
 </configs>

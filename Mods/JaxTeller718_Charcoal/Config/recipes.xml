@@ -1,0 +1,12 @@
+<configs>
+	<append xpath="/recipes">
+	
+<recipe name="resourceCharcoalJT" count="1" craft_area="workbench" >
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+	
+
+	
+</append>
+</configs>

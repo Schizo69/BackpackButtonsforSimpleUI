@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Botman>
+
+    <Configs>
+        <config name="anticheat" enabled="True" />
+        <config name="botname" text="[F63B3B]Botman" color-public="ffffff" color-private="EA3257" />
+        <config name="chatcommands" prefix="/" hide="False" />
+        <config name="clans" enabled="False" max_clans="10" max_players="5" required_level_to_create="25" />
+        <config name="custommessages" enabled="False" />
+        <config name="dropminer" enabled="False" triggercount-entities="0" triggercount-falling="0" />
+        <config name="prevent_tree_removal_command" enabled="False"/> <!-- Prevents client side command that allows players to remove trees..exploit--> 
+        <config name="resetregions" enabled="False" prefabsonly="False" days_between_resets="3" remove_lcbs="True" />
+        <config name="webmapzones" enabled="False" zonecolors="red" path="D:\A19-Jun29\Mods\Allocs_WebAndMapRendering\webserver\js\map.js" />
+        <config name="zombieannouncer" enabled="False" />
+        <config name="zombiefreetime" enabled="False" start="6" end="20" />
+        <config name="zones" enabled="False" />
+        <config name="version" value="1.9.4.4" />
+    </Configs>
+
+    <CustomMessages>
+        <message name="login" name_color="[00FF00]" message_color="[FFFFFF]" message="[name] has joined the game." />
+        <message name="logout" name_color="[00FF00]" message_color="[FFFFFF]" message="[name] has logged out." />
+        <message name="died" name_color="[00FF00]" message_color="[FFFFFF]" message="[name] has died." />
+        <message name="killed" killer_name_color="[FF0000]" victim_name_color="[0000FF]" message_color="[FFFFFF]" message="[killer] has killed [victim]." />
+    </CustomMessages>
+
+    <ResetRegions>
+        <Region type="manual" region="r.0.0" />
+    </ResetRegions>
+
+    <ZombieAnnouncer>
+       <entity name="zombieName" message="A Boss zombie has spawned at COORDS" />
+       <!-- For Multiple Entries copy & paste line and change name/message -->
+       <!-- Use COORDS if/where you want zombie coordinates displayed -->
+    </ZombieAnnouncer>
+
+    <Zones>
+       <zone name="killzone" corner1="0,0,0" corner2="0,0,0" />
+    </Zones>
+
+    <ExemptPrefabs>
+       <prefab name="Prefab_Name_Here_01"/>
+    </ExemptPrefabs>
+
+</Botman>

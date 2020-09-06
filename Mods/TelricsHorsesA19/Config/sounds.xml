@@ -28,9 +28,9 @@
 	<!--<Channel name="Mouth"/>-->
 	<Priority name="3"/>
 	<maxVoicesPerEntity value="10"/>
-  <LowestPitch name="0.95"/>
-  <HighestPitch name="1.05"/>
-	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value=".1"/> 
+  <LowestPitch name="0.00"/>
+  <HighestPitch name="0.00"/>
+	<LocalCrouchVolumeScale value="0.0"/> <CrouchNoiseScale value="0.0"/> <NoiseScale value="0"/> <MaxVoices value="1"/> <MaxRepeatRate value=".1"/> 
 </SoundDataNode>
 
 <SoundDataNode name="HorseTamingCompleteSound"> <!--<AudioSource name="Sounds/AudioSource_Screamer"/>--> <AudioSource name="Sounds/AudioSource_Vehicle"/>
@@ -38,9 +38,9 @@
 	<!--<Channel name="Mouth"/>-->
 	<Priority name="3"/>
 	<maxVoicesPerEntity value="10"/>
-  <LowestPitch name="0.95"/>
-  <HighestPitch name="1.05"/>
-	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value=".1"/> 
+  <LowestPitch name="0.00"/>
+  <HighestPitch name="0.00"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value=".01"/> <MaxVoices value="10"/> <MaxRepeatRate value=".1"/> 
 </SoundDataNode>
 
 <!-- tests -->

@@ -1,0 +1,61 @@
+		<block name="nano_terrOreSilver">
+				<property name="Extends" value="terrOreSilver" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrOreSilver"/>
+				<property name="CustomIcon" value="terrOreSilver"/>
+		</block>
+		<block name="nano_terrOrePotassiumNitrate">
+				<property name="Extends" value="terrOrePotassiumNitrate" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrOrePotassiumNitrate"/>
+				<property name="CustomIcon" value="terrOreIron"/>
+				<property name="Material" value="Mcoal"/>
+		</block>
+		<block name="nano_terrOreIron">
+				<property name="Extends" value="terrOreIron" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrOreIron"/>
+				<property name="CustomIcon" value="terrOreIron"/>
+		</block>
+		<block name="nano_terrOreLead">
+				<property name="Extends" value="terrOreLead" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrOreLead"/>
+				<property name="CustomIcon" value="terrOreIron"/>
+		</block>
+		<block name="nano_terrBedrock">
+				<property name="Extends" value="terrBedrock" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrBedrock"/>
+				<property name="CustomIcon" value="terrBedrock"/>
+		</block>
+		<block name="nano_terrIce">
+				<property name="Extends" value="terrIce" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrIce"/>
+				<property name="CustomIcon" value="terrIce"/>
+		</block>
+		<block name="nano_terrFertileDirt">
+				<property name="Extends" value="terrFertileDirt" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrFertileDirt"/>
+				<property name="CustomIcon" value="terrDirt"/>
+		</block>
+		<block name="nano_terrFertileGrass">
+				<property name="Extends" value="terrFertileGrass" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrFertileGrass"/>
+				<property name="CustomIcon" value="terrForestGround"/>
+		</block>
+		<block name="nano_terrDestroyedWoodDebris">
+				<property name="Extends" value="terrDestroyedWoodDebris" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrDestroyedWoodDebris"/>
+				<property name="CustomIcon" value="terrDestroyedWoodDebris"/>
+		</block>
+		<block name="nano_terrOreOilDeposit">
+				<property name="Extends" value="terrOreOilDeposit" param1="PlaceAltBlockValue"/>
+				<property name="Class" value="LiquidMoving"/>
+				<property name="LiquidStatic" value="terrOreOilDeposit"/>
+				<property name="CustomIcon" value="terrOreIron"/>
+		</block>

@@ -99,6 +99,18 @@
 	<property name="FallOver" value="false" />
 	</append>
 	
+	<append xpath="/blocks/block[@name='treePineBurntLrg']">
+	<property name="FallOver" value="false" />
+	</append>
+	
+	<append xpath="/blocks/block[@name='treePineBurntMed']">
+	<property name="FallOver" value="false" />
+	</append>
+	
+	<append xpath="/blocks/block[@name='treePineBurntFullMed']">
+	<property name="FallOver" value="false" />
+	</append>
+	
 	<append xpath="/blocks/block[@name='treePlantedMountainPine1m']">
 	<property name="FallOver" value="false" />
 	</append>
@@ -106,6 +118,7 @@
 	<append xpath="/blocks/block[@name='treePlantedMountainPine12m']">
 	<property name="FallOver" value="false" />
 	</append>
+	
 	
 	<append xpath="/blocks/block[@name='treePlantedMountainPine19m']">
 	<property name="FallOver" value="false" />
@@ -166,5 +179,7 @@
 	<append xpath="/blocks/block[@name='treeBurntMaple03']">
 	<property name="FallOver" value="false" />
 	</append>
+	
+	
 	
 </Valmar>
